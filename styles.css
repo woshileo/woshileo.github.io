@@ -4,7 +4,7 @@ html, body, a, p, h1, h2, h3, h4, h5, h6 {
   }
 
   body {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
   }
 
   h1 {
@@ -38,7 +38,7 @@ html, body, a, p, h1, h2, h3, h4, h5, h6 {
   }
 
   .welcome-header {
-    font-family: 'Pacifico';
+    font-family: 'Roboto';
   }
 
   @media only screen and (max-width: 40em) {

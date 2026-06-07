@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>woshileo</title>
+    <title>Leo Siow</title>
     <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    <!-- Fdn CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation-flex.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138218001-1"></script>
@@ -25,20 +24,25 @@
   </head>
 
   <body>
-    <div class="row align-middle align-center content">
-      <div class="small-12 medium-3 large-2 columns">
-        <div class="row align-center">
-          <img class="prof-pic" src="static/profile-photo.jpeg">
+    <nav class="site-nav">
+      <a class="brand" href="index.html">Leo Siow</a>
+      <span class="links">
+        <a href="travel.html">Travel</a>
+        <a href="personal_finance.html">Finance</a>
+        <a href="static/resume.pdf" target="_blank">Resume</a>
+      </span>
+    </nav>
+
+    <main class="home">
+      <div class="home-grid">
+        <img class="prof" src="static/profile-photo.jpeg" alt="Leo Siow">
+        <div>
+          <h1>Hey there!</h1>
+          <p>My name is Leo Siow. I am currently a Lead Software Engineer at Apple, where I lead the Apple Intelligence service mesh team working on GenAI LLM developer tools, infra engineering, and agentic features. Previously, I was a Senior Software Engineer at Salesforce leading development of a multi-cloud managed service mesh for their Kubernetes platform. I am passionate about distributed systems, cloud infrastructure, and AI platform engineering.</p>
+          <p>Outside of work I enjoy playing video games, basketball, and watching movies. I also have a passion for <a href="personal_finance.html">credit card churning and personal finance</a>, and I love to travel &mdash; check out my <a href="travel.html">travel blogs</a>. I currently reside in New York, NY.</p>
+          <p>Want to know more about me? You can find my resume <a href="static/resume.pdf" target="_blank">here</a>, or feel free to connect with me on <a href="https://www.linkedin.com/in/leo-siow/" target="_blank">LinkedIn</a> or <a href="https://github.com/woshileo" target="_blank">Github</a>.</p>
         </div>
       </div>
-      <div class="small-12 medium-6 large-4 columns">
-        <h1 class="welcome-header">Hey there!</h1>
-        <p>My name is Leo Siow. I am currently a Lead Software Engineer at Apple, where I lead the Apple Intelligence service mesh team working on GenAI LLM developer tools, infra engineering, and agentic features. Previously, I was a Senior Software Engineer at Salesforce leading development of a multi-cloud managed service mesh for their Kubernetes platform. I am passionate about distributed systems, cloud infrastructure, and AI platform engineering.</p>
-        <p>Outside of work I enjoy playing video games, basketball, and watching movies. I also have a passion for <a href="personal_finance.html">credit card churning and personal finance</a>, and I love to travel &mdash; check out my <a href="travel.html">travel blogs</a>. I currently reside in New York, NY.</p>
-        <p>Want to know more about me? You can find my resume <a href="static/resume.pdf" target="_blank">here</a>, or feel free to connect with me on <a href='https://www.linkedin.com/in/leo-siow/' target="_blank">LinkedIn</a> or <a href='https://github.com/woshileo' target="_blank">Github</a>.</p>
-      </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+    </main>
   </body>
 </html>
